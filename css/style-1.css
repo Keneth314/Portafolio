@@ -1,0 +1,64 @@
+
+/* ******************* NAVEGACIÓN ***************** */
+.logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 2em;
+}
+
+.nav-item:hover{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.nav-item{
+    margin-right: 10px;
+    border-width: 1px;
+}
+
+
+
+/* ******************* NAVEGACIÓN ***************** */
+.miniatura{
+    background-image: url('../img/img1.jpg');
+    font-style: none;
+    padding: 100px;
+}
+.miniatura__title{
+    text-shadow: 1px 1px 1px black;
+    background-color: #1a1a1ac7;
+    padding: 3px;
+}
+
+.miniatura__title__name{
+    /* text-shadow: 1px 2px 1px black; */
+    background-color: rgba(128, 128, 128, 0.795); 
+    display: inline-block;
+    font-size: 20px;
+    color:white;
+}
+
+.portfolio-container{
+    width: 350px;
+    height: 500px;
+}
+
+.portfolio-container:hover{
+    /* box-shadow: 1px 1px 1px black; */
+}
+.portfolio-details a h2{
+    color: #1a1a1a;
+    text-shadow: 1px 1px 1px #1a1a1ac7;
+    /* background-color: rgba(128, 128, 128, 0.795);  */
+    /* display: inline-block; */
+
+
+}
+
+.portfolio-details a p{
+    color: #1a1a1a;
+    text-shadow: 1px 1px 1px #1a1a1ac7;
+    /* background-color: rgba(128, 128, 128, 0.795);  */
+    /* display: inline-block; */
+}
